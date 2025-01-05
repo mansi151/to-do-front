@@ -1,0 +1,78 @@
+.mainButton{
+  color:white;
+  background-color: grey;
+  border: none;
+  border-radius: 2px;
+  padding: 12px;
+  font-size: medium;
+  align-items: center;
+}
+.mainButtonContainer{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.mainFormDiv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainFormDiv {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow:100px;
+}
+.taskInput {
+  display: flex;
+  justify-content: center;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: end;
+}
+.tableContainer{
+  margin : 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.tablestyle {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  table-layout: fixed;
+}
+.tablestyle th,
+.tablestyle td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.tablestyle th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tablestyle td {
+  font-size: 14px;
+}
+
+.tablestyle tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tablestyle tr:hover {
+  background-color: #f1f1f1;
+}
+
+.noTasksRow {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
